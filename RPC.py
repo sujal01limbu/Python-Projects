@@ -1,6 +1,7 @@
 import random
 while True:
     y = input("Enter choice:")
+    y = y.lower()
     if (y == 'rock' or y == 'paper' or y == 'scissor'):
         
         break
